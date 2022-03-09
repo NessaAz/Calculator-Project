@@ -1,0 +1,15 @@
+.container{
+    background-color: grey;
+    display: flex;
+    width: 60vw;
+  }
+  .box-column{
+    flex-direction: row;
+   padding: 50px;
+  }
+  .num{
+    padding: 30px;
+  }
+  span{
+    font-size: 2em;
+  }
