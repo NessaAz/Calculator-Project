@@ -19,10 +19,17 @@
     background-color: rgb(243, 243, 243);
     padding: 50px;
   }
+  .resultOutput{
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+  }
   .output:hover{
     border-top: 1px solid black;
     cursor: pointer;
   }
   h1{
     text-align: center;
+  }
+  .space{
+    padding: 10px
   }
