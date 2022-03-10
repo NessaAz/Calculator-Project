@@ -8,5 +8,11 @@ $(document).ready(function () {
         function display(value){
             $(".output").text(value)
         }
+        function Clear() {
+            document.getElementById('txtFirst').value = "";
+            document.getElementById('txtSecond').value = "";
+            document.getElementById('txtResult').value = "";
+        });
+        }
     })
 })
