@@ -28,8 +28,7 @@ h1{
   text-align: center;
 }
 
-    margin: 50px;
-  }
+
   .box-column{
     display: flex;
     justify-content: space-around;
