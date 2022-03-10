@@ -1,6 +1,7 @@
 $(document).ready(function () {
+	let value = "";
     $("span").on('click', function () {
-        let value = $(this).text();
+        value += $(this).text();
         $(this).each(function (){
             display(value)
         })
