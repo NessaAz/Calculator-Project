@@ -1,15 +1,28 @@
 .container{
-    background-color: grey;
-    display: flex;
-    width: 60vw;
-  }
-  .box-column{
-    flex-direction: row;
-   padding: 50px;
-  }
-  .num{
-    padding: 30px;
-  }
-  span{
-    font-size: 2em;
-  }
+  margin: 50px;
+}
+.box-column{
+  display: flex;
+  justify-content: space-around;
+}
+.num{
+  padding: 20px;
+}
+span{
+  font-size: 2em;
+  padding: 20px;
+}
+span:hover{
+  cursor: pointer;
+}
+.output{
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+}
+.output:hover{
+  border-top: 1px solid black;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
