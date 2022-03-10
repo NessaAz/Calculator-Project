@@ -1,5 +1,5 @@
 .container{
-<<<<<<< HEAD
+
   margin: 50px;
 }
 .box-column{
@@ -27,7 +27,7 @@ span:hover{
 h1{
   text-align: center;
 }
-=======
+
     margin: 50px;
   }
   .box-column{
@@ -48,6 +48,10 @@ h1{
     background-color: rgb(243, 243, 243);
     padding: 50px;
   }
+  .resultOutput{
+    background-color: rgb(243, 243, 243);
+    padding: 50px;
+  }
   .output:hover{
     border-top: 1px solid black;
     cursor: pointer;
@@ -55,4 +59,9 @@ h1{
   h1{
     text-align: center;
   }
->>>>>>> f8a2c5fa58f21848b26cbab176f9d6dc92e9d100
+
+  .space{
+    padding: 10px
+  }
+
+
