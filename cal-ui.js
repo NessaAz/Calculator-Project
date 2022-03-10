@@ -11,11 +11,19 @@ $(document).ready(function () {
         }
     })
 
-    $(".delete").on('click', function(){
+    $(".delete").on('click', function()
+       {
             $(".output").text('')
             value = ""
+            $(".resultOutput").text('')
+        })
 
-    })
+    
+
+    
+
+
+
 })
 
 
