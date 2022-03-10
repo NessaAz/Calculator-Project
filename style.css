@@ -1,4 +1,33 @@
 .container{
+
+  margin: 50px;
+}
+.box-column{
+  display: flex;
+  justify-content: space-around;
+}
+.num{
+  padding: 20px;
+}
+span{
+  font-size: 2em;
+  padding: 20px;
+}
+span:hover{
+  cursor: pointer;
+}
+.output{
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+}
+.output:hover{
+  border-top: 1px solid black;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
+
     margin: 50px;
   }
   .box-column{
@@ -30,6 +59,9 @@
   h1{
     text-align: center;
   }
+
   .space{
     padding: 10px
   }
+
+
