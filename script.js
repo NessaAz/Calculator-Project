@@ -1,14 +1,11 @@
 $(document).ready(function () {
     $("span").on('click', function () {
-        var value = $(this).text()
-        console.log(value)
-        console.log(typeof value)
+        let value = $(this).text();
+        $(this).each(function (){
+            display(value)
+        })
+        function display(value){
+            $(".output").text(value)
+        }
     })
-
-
-
-
-
-
-
 })
